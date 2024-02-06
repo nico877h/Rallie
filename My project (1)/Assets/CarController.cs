@@ -34,7 +34,7 @@ public class CarController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
 
         // Acceleration Input
-        verticalInput = Input.GetAxis("Vertical");
+        verticalInput = Input.GetAxis("Vertical") * -1;
 
         // Breaking Input
         isBreaking = Input.GetKey(KeyCode.Space);
@@ -44,6 +44,8 @@ public class CarController : MonoBehaviour
     {
         frontLeftWheelCollider.motorTorque = verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
+        rearRightWheelCollider.motorTorque = verticalInput * motorForce;
+        rearLeftWheelCollider.motorTorque = verticalInput * motorForce;
         currentbreakForce = isBreaking ? breakForce : 0f;
         ApplyBreaking();
     }
