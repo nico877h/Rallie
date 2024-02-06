@@ -266,9 +266,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa9ec09693cb7c14fb9945d027723831, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1348977577}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa9ec09693cb7c14fb9945d027723831, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1348977584}
   m_SourcePrefab: {fileID: 100100000, guid: aa9ec09693cb7c14fb9945d027723831, type: 3}
 --- !u!1001 &376232523
 PrefabInstance:
@@ -894,24 +891,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa9ec09693cb7c14fb9945d027723831, type: 3}
   m_PrefabInstance: {fileID: 292924410}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1348977584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348977575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02772f0f1596c6d43acc2a29f220a723, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frontleft: {fileID: 1662669009}
-  frontreight: {fileID: 227459108}
-  backleft: {fileID: 832079762}
-  backreight: {fileID: 382974396}
-  acceleration: 500
-  breakingForce: 300
 --- !u!1001 &1433445698
 PrefabInstance:
   m_ObjectHideFlags: 0
