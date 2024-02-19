@@ -16,9 +16,9 @@ public class health : MonoBehaviour
         healthbar.SetMaxHealth(maxHealth);
     }
     
-    void Update()
+    void OnCollisionEnter(Collision other)
     {
-        if (Input.GetKeyDown(KeyCode.Space)) 
+        if (other.gameObject.tag == "trees")
         {
             TakeDamage(20);
         }
